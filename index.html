@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro Guia</title>
+
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+  <div id="container">
+    <img src="https://i.ibb.co/Fxrp5TC/icone-padrao-2021.png" width="50" alt="Logo Guia">
+    <h1 id="titulo">Cadastro de Comércio Premiun</h1>
+  </div>
+
+  <br>
+
+    <form>
+      <fieldset class="grupo">
+        <div class="campo">
+          <label for="endereco">Rua/Avenida</label>
+          <input type="text" name="" id="endereco" required>
+        </div>
+
+        <div class="campo">
+          <label for="bairro">Bairro</label>
+          <input type="text" name="" id="bairro" required>
+        </div>
+        
+        <div class="campo">
+          <label for="numeroEndereco">Número</label>
+          <input type="text" name="" id="numeroEndereco" required>
+        </div>
+        
+        <div class="campo">
+          <label for="cidade">Cidade</label>
+          <input type="text" name="" id="cidade" required>
+        </div>
+      </fieldset>
+
+      <fieldset class="grupo">
+        <div id="telefone">
+          <div class="campo">
+            <label for="dddTelefone">DDD</label>
+            <input type="text" maxlength="2" name="" id="dddTelefone">
+          </div>
+
+          <div class="campo">
+            <label for="numeroTelefone">Número</label>
+            <input type="text" maxlength="9" name="" id="numeroTelefone">
+          </div>
+        </div>
+      </fieldset>
+
+        <div id="imageContainer">
+          <div class="campo" id="imageURL">
+            <label for="image">ImageURL</label>
+            <input type="url" name="" id="image">
+          </div>
+        </div>
+
+      <fieldset class="grupo">
+        <div class="campo">
+          <label for="cardapio">Cardápio</label>
+          <input type="url" name="" id="cardapio">
+        </div>
+
+        <div class="campo">
+          <label for="site">Site</label>
+          <input type="url" name="" id="site">
+        </div>
+
+        <div class="campo">
+          <label for="facebook">Facebook</label>
+          <input type="url" name="" id="facebook">
+        </div>
+
+        <div class="campo">
+          <label for="instagram">Instagram</label>
+          <input type="url" name="" id="instagram">
+        </div>
+        
+        <div class="campo">
+          <label for="email">Email</label>
+          <input type="email" name="" id="email">
+        </div>
+      </fieldset>
+
+        <div class="campo">
+          <label for="IframeMaps">Iframe Maps</label>
+          <input type="url" name="" id="IframeMaps">
+        </div>     
+      
+    <button type="submit" id="botao" class="botao">Enviar</button>
+    </form>
+
+  <script src="./scripts/constants.js"></script>
+</body>
+</html>
