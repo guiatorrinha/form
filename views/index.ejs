@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Cadastro Guia</title>
 
-  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="../css/index.css">
 </head>
 <body>
   <div id="container">
@@ -14,26 +14,26 @@
 
   <br>
 
-    <form>
+    <form action="/base.html" method="post">
       <fieldset class="grupo">
         <div class="campo">
           <label for="endereco">Rua/Avenida</label>
-          <input type="text" name="" id="endereco" required>
+          <input type="text" name="endereco" id="endereco" required>
         </div>
 
         <div class="campo">
           <label for="bairro">Bairro</label>
-          <input type="text" name="" id="bairro" required>
+          <input type="text" name="bairro" id="bairro" required>
         </div>
         
         <div class="campo">
           <label for="numeroEndereco">Número</label>
-          <input type="text" name="" id="numeroEndereco" required>
+          <input type="text" name="numeroEndereco" id="numeroEndereco" required>
         </div>
         
         <div class="campo">
           <label for="cidade">Cidade</label>
-          <input type="text" name="" id="cidade" required>
+          <input type="text" name="cidade" id="cidade" required>
         </div>
       </fieldset>
 
@@ -41,12 +41,12 @@
         <div id="telefone">
           <div class="campo">
             <label for="dddTelefone">DDD</label>
-            <input type="text" maxlength="2" name="" id="dddTelefone">
+            <input type="text" maxlength="2" name="dddTelefone" id="dddTelefone">
           </div>
 
           <div class="campo">
             <label for="numeroTelefone">Número</label>
-            <input type="text" maxlength="9" name="" id="numeroTelefone">
+            <input type="text" maxlength="9" name="numeroTelefone" id="numeroTelefone">
           </div>
         </div>
       </fieldset>
@@ -54,45 +54,43 @@
         <div id="imageContainer">
           <div class="campo" id="imageURL">
             <label for="image">ImageURL</label>
-            <input type="url" name="" id="image">
+            <input type="url" name="image" id="image">
           </div>
         </div>
 
       <fieldset class="grupo">
         <div class="campo">
           <label for="cardapio">Cardápio</label>
-          <input type="url" name="" id="cardapio">
+          <input type="url" name="cardapio" id="cardapio">
         </div>
 
         <div class="campo">
           <label for="site">Site</label>
-          <input type="url" name="" id="site">
+          <input type="url" name="site" id="site">
         </div>
 
         <div class="campo">
           <label for="facebook">Facebook</label>
-          <input type="url" name="" id="facebook">
+          <input type="url" name="facebook" id="facebook">
         </div>
 
         <div class="campo">
           <label for="instagram">Instagram</label>
-          <input type="url" name="" id="instagram">
+          <input type="url" name="instagram" id="instagram">
         </div>
         
         <div class="campo">
           <label for="email">Email</label>
-          <input type="email" name="" id="email">
+          <input type="email" name="email" id="email">
         </div>
       </fieldset>
 
         <div class="campo">
           <label for="IframeMaps">Iframe Maps</label>
-          <input type="url" name="" id="IframeMaps">
+          <input type="url" name="IframeMaps" id="IframeMaps">
         </div>     
       
     <button type="submit" id="botao" class="botao">Enviar</button>
     </form>
-
-  <script type="module" src="./scripts/constants.js"></script>
 </body>
 </html>
