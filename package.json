@@ -1,0 +1,8 @@
+{
+  "name": "form",
+  "version": "1.0.0",
+  "main": "scripts/index.js",
+  "repository": "git@github.com:guiatorrinha/form.git",
+  "author": "henriq4 <henriq4NET@gmail.com>",
+  "license": "MIT"
+}

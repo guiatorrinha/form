@@ -1,4 +1,4 @@
-const data = document.getElementById("botao").addEventListener('click', (event) => {
+const document_data = document.getElementById("botao").addEventListener('click', (event) => {
   event.preventDefault()
   
   const rua = document.querySelector("#endereco").value
@@ -33,7 +33,8 @@ const data = document.getElementById("botao").addEventListener('click', (event) 
     iframe: IframeMaps
   }
 
+  console.log(data)
   return data
 });
 
-export default data;
+export default document_data

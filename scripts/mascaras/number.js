@@ -1,6 +1,6 @@
-const data = require("../constants").default
+import data from "../constants"
 
-const {numberoTelefone: number} = data
+const {numeroTelefone: number} = data
 
 const celular = number.lenght === 9
 
@@ -16,5 +16,7 @@ const celular = number.lenght === 9
     const number_final = `${number_slice_1}-${number_slice_2}`
   }
 
-const numberoTelefone = number_final
+export const numberMasc = number_final
+
+
 

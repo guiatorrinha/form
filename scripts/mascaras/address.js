@@ -1,4 +1,4 @@
-const data = require('../constants').default
+import data from "../constants";
 
 const {rua: rua_initial, bairro: bairro_initial, cidade: cidade_initial} = data
 
@@ -24,10 +24,8 @@ const rua = rua_method.join(" ");
 const bairro = bairro_method.join(" ");
 const cidade = cidade_method.join(" ");
 
-const address = {
+export const address = {
   rua,
   bairro,
   cidade
 }
-
-module.exports = address
